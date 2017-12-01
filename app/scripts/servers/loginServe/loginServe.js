@@ -1,4 +1,4 @@
-
+import md5 from 'md5';
 export default angular.module('loginServe',[]).service('loginServe',loginServe).name;
 function loginServe(httpServe){
     function login(){
@@ -7,7 +7,7 @@ function loginServe(httpServe){
     }
     login.prototype={
         login:(user)=>{
-            let params={userName:user.userName,password:user.password};
+            let params={userName:user.userName,password:md5(user.password)};
             httpServe.post('login',params).then(res=>{
                 console.log(res);
             })
