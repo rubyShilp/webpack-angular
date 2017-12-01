@@ -1,0 +1,39 @@
+/* 表单 */
+@yellow:#ffd238;
+.fddui-form {
+	@txt-main:#333;
+	@txt-vice:#666;
+	@txt-secondary:#999;
+	.fddui-form-row {
+		margin-top: 12px;
+	}
+	/* 表单与图标 */
+	.fddui-form-icon {
+		position: relative;
+		max-width:100%;
+		display: inline-block;
+		i{
+			position: absolute;
+			width: 30px;
+			line-height: 32px;
+			font-size: 14px;
+			color: #999;
+			text-align: center;
+			pointer-events: none;
+		}
+		.iconright {
+			right: 0;
+		}
+		input{
+			padding-left: 30px;
+		}
+	}
+	.fddui-form-help-inline{
+		display: inline-block;
+		margin: 0 0 0 10px;
+	}
+	.fddui-form-help-block{
+		display: block;
+		margin: 10px 0 0 0;
+	}
+}

@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'fddv4';
+  src:  url('../../font/fddv4.eot?4d6vob');
+  src:  url('../../font/fddv4.eot?4d6vob#iefix') format('embedded-opentype'),
+    url('../../font/fddv4.ttf?4d6vob') format('truetype'),
+    url('../../font/fddv4.woff?4d6vob') format('woff'),
+    url('../../font/fddv4.svg?4d6vob#fddv4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fddv4-ico-"], [class*=" fddv4-ico-"],.fddv4-checkbox-off{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fddv4' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fddv4-ico-closel1:before {
+  content: "\e938";
+}
+.fddv4-ico-sign:before {
+  content: "\e901";
+}
+.fddv4-ico-close:before {
+  content: "\e902";
+}
+.fddv4-ico-archivi:before {
+  content: "\e903";
+}
+.fddv4-ico-return:before {
+  content: "\e904";
+}
+.fddv4-ico-edit:before {
+  content: "\e905";
+}
+.fddv4-ico-read:before {
+  content: "\e906";
+}
+.fddv4-ico-clock:before {
+  content: "\e907";
+}
+.fddv4-ico-issue:before {
+  content: "\e908";
+}
+.fddv4-ico-calendar:before {
+  content: "\e909";
+}
+.fddv4-ico-renewal:before {
+  content: "\e90a";
+}
+.fddv4-ico-app:before {
+  content: "\e90b";
+}
+.fddv4-ico-chapter:before {
+  content: "\e90c";
+}
+.fddv4-ico-news:before {
+  content: "\e900";
+}
+.fddv4-ico-closel:before {
+  content: "\e90d";
+}
+.fddv4-ico-help:before {
+  content: "\e90e";
+}
+.fddv4-ico-sorting:before {
+  content: "\e910";
+}
+.fddv4-ico-sortinga:before {
+  content: "\e911";
+}
+.fddv4-ico-detail:before {
+  content: "\e912";
+}
+.fddv4-ico-sortingz:before {
+  content: "\e913";
+}
+.fddv4-ico-indenta:before {
+  content: "\e914";
+}
+.fddv4-ico-chapterl:before {
+  content: "\e915";
+}
+.fddv4-ico-glass:before {
+  content: "\e916";
+}
+.fddv4-ico-arrow:before {
+  content: "\e917";
+}
+.fddv4-ico-arrow1:before {
+  content: "\e92e";
+}
+.fddv4-ico-arrow2:before {
+  content: "\e92f";
+}
+.fddv4-ico-plus:before {
+  content: "\e918";
+}
+.fddv4-ico-edit1:before {
+  content: "\e919";
+}
+.fddv4-ico-borrowed:before {
+  content: "\e90f";
+}
+.fddv4-ico-renewal1:before {
+  content: "\e91a";
+}
+.fddv4-ico-return1:before {
+  content: "\e91b";
+}
+.fddv4-ico-more:before {
+  content: "\e91c";
+}
+.fddv4-ico-down1:before {
+  content: "\e91d";
+}
+.fddv4-ico-approval1:before {
+  content: "\e91f";
+}
+.fddv4-ico-del1:before {
+  content: "\e91e";
+}
+.fddv4-ico-sign2:before {
+  content: "\e920";
+}
+.fddv4-ico-view2:before {
+  content: "\e921";
+}
+.fddv4-ico-edit2:before {
+  content: "\e922";
+}
+.fddv4-ico-gou:before {
+  content: "\e923";
+}
+.fddv4-ico-annex:before {
+  content: "\e924";
+}
+.fddv4-ico-pdf:before {
+  content: "\e925";
+}
+.fddv4-ico-pdf0:before {
+  content: "\e926";
+}
+.fddv4-ico-mobile:before {
+  content: "\e927";
+}
+.fddv4-ico-rename:before {
+  content: "\e928";
+}
+.fddv4-ico-down2:before {
+  content: "\e929";
+}
+.fddv4-ico-more1:before {
+  content: "\e92a";
+}
+.fddv4-ico-tit1:before {
+  content: "\e92b";
+}
+.fddv4-ico-process:before {
+  content: "\e92c";
+}
+.fddv4-ico-schedule:before {
+  content: "\e92d";
+}
+.fddv4-ico-print:before {
+  content: "\e930";
+}
+.fddv4-ico-export:before {
+  content: "\e931";
+}
+.fddv4-ico-coopera:before {
+    content: "\e932";
+}
+.fddv4-ico-sign3:before {
+   content: "\e933";
+}
+.fddv4-ico-tip1:before {
+  content: "\e934";
+}
+.fddv4-ico-reduction:before {
+  content: "\e935";
+  color: #515151;
+}
+.fddv4-ico-personnel:before {
+  content: "\e936";
+}
+.fddv4-ico-personnel1:before {
+  content: "\e937";
+}
