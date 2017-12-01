@@ -7,12 +7,12 @@ module.exports=webpackMerge(commonConfig,{
     //devtool:'source-map',
     output:{
         path: path.join(process.cwd(), 'dist'),
-        publicPath: 'http://192.168.66.10:8083/',    
+        publicPath: 'http://127.0.0.1:8083/',    
         filename: '[name].bundle.js',
         chunkFilename: '[main].chunk.js'
     },
     devServer:{
-        host:'192.168.66.10',
+        host:'127.0.0.1',
         stats: 'minimal',
         proxy:[
             {
