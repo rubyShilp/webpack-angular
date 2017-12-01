@@ -8,11 +8,15 @@ export default function routing($urlRouterProvider, $stateProvider,RestangularPr
         }
         return true;
     });
-    RestangularProvider.setResponseExtractor(function(response, operation) {
-        return response;
-    });
+    //请求头添加TOKEN
+    RestangularProvider.setDefaultHeaders({token: "x-restangular"});
+    //请求拦截
     RestangularProvider.setRequestInterceptor(function(element, operation, route, url){
         return element;
+    });
+    //请求响应
+    RestangularProvider.setResponseExtractor(function(response, operation) {
+        return response;
     });
     //登录
     $urlRouterProvider.otherwise('/login');
