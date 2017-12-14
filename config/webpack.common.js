@@ -12,14 +12,6 @@ module.exports={
             'node_modules',
             path.resolve(process.cwd(), 'app')
         ],
-        // alias: {
-        //     'angular':path.resolve(process.cwd(), './node_modules/angular/angular.min.js'),
-        //     'uiRouter':path.resolve(process.cwd(), './node_modules/angular-ui-router/release/angular-ui-router.min.js'),
-        //     'restangular':path.resolve(process.cwd(), './node_modules/restangular/dist/restangular.min.js'),
-        //     'animate':path.resolve(process.cwd(), './node_modules/angular-animate/angular-animate.min.js'),
-        //     'cookies':path.resolve(process.cwd(), './node_modules/angular-cookies/angular-cookies.min.js'),
-        //     'messages':path.resolve(process.cwd(), './node_modules/angular-messages/angular-messages.min.js')
-        // },
         extensions: ['.js','.css','.less']
     },
     module:{
@@ -67,11 +59,6 @@ module.exports={
     plugins:[
         new webpack.ProgressPlugin(),
         new webpack.optimize.ModuleConcatenationPlugin(),//作用域提升
-        // new webpack.ProvidePlugin({
-        //     $: 'jquery',
-        //     jQuery: 'jquery',
-        //     'window.jQuery':'jquery'
-        // }),
         new webpack.optimize.CommonsChunkPlugin({
             names: 'main',
             filename:"main.bundle[hash:7].js"

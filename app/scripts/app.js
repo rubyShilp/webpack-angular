@@ -18,6 +18,7 @@ import restangular from 'restangular';
 import router from './router/router.js';
 import controllers from './controllers/mainController';
 import services from './servers/mainServer';
+import directives from './directives/main';
 export default angular.module('APP',[
     ngAnimate,
     ngCookies,
@@ -25,5 +26,6 @@ export default angular.module('APP',[
     uiRouter,
     restangular,
     controllers,
-    services
+    services,
+    directives
   ]).config(router)

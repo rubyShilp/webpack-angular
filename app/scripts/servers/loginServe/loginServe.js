@@ -11,7 +11,7 @@ function loginServe(httpServe){
             httpServe.post('login',params).then(res=>{
                 console.log(res);
             })
-        }
+        },
     }
     return login;
 }

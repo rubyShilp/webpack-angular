@@ -6,7 +6,7 @@ var commonConfig = require('./webpack.common');
 module.exports = webpackMerge(commonConfig, {
     output:{
         path: path.join(process.cwd(), 'dist'),
-        publicPath: '/case/',    
+        publicPath: '/',    
         filename: '[name].bundle.js',
         chunkFilename: '[name].chunk.js',
     },
