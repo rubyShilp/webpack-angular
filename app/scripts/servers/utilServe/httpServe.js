@@ -1,20 +1,24 @@
 export default angular.module('httpServe',[]).factory('httpServe',httpServe).name;
-function httpServe(Restangular){
+function httpServe($http,$jqLike){
 	return{
 		get:get,
 		post:post,
 		upload:upload
 	}
 	//get请求
-	function get(url,parmas){
-		return Restangular.one(url).get(parmas)
+	async function get(url,parmas){
+		let result=await $http.get(url,$jqLike(parmas));
+		return result.data;
 	}
 	//post请求
-	function post(url,parmas){
-		return Restangular.all(url).post(parmas);
+	async function post(url,parmas){
+		let result=await $http.post(url,$jqLike(parmas));
+		return result.data;
 	}
-	function upload(url,parmas){
-		return Restangular.all(url,{'Content-Type':'multipart/form-data'}).post(parmas);
+	//上传文件
+	async function upload(url,parmas){
+		let result=await $http.post(url,parmas);
+		return result.data;
 	}
 }
-httpServe.$inject=['Restangular'];	
+httpServe.$inject=['$http','$httpParamSerializerJQLike'];	

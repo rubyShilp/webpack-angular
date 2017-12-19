@@ -8,7 +8,7 @@ function loginServe(httpServe){
     login.prototype={
         login:(user)=>{
             let params={userName:user.userName,password:md5(user.password)};
-            httpServe.post('login',params).then(res=>{
+            httpServe.post('/login',params).then(res=>{
                 console.log(res);
             })
         },
