@@ -1,4 +1,4 @@
-import interceptorServer from './../servers/interceptorServer/interceptorServer';
+import interceptorServer from './../servers/utilServe/interceptorServer';
 import login from './../../views/login/login.html';
 export default function routing($urlRouterProvider, $stateProvider,$httpProvider){
     $httpProvider.interceptors.push(interceptorServer);
